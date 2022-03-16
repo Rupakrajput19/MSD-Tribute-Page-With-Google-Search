@@ -1,0 +1,300 @@
+/* CSS file to Design This HTML Page */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+/* *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+:root{ 
+ --background:#99feff;                      /* Global Variable in CSS */
+}
+
+body {
+  /* font-family: 'Noto Serif', serif; */
+  /* background-color: white; */
+  background-color: var(--background);
+  /* transition: 1s; */
+}
+
+/* Utility Class is start here */
+
+.center{
+  text-align: center;
+}
+.italic{
+  font-style: italic;
+ }
+ 
+ .underline{
+   --underline: underline;                  /* Local Variable in CSS */
+   text-decoration: var(--underline);
+ }
+
+ .sub-heading{
+   margin-left: 35px;
+   font-size: 2rem;
+   font-weight:bold;
+ }
+ 
+ .img-center{
+  margin: 0 0 0 38vw;
+  width: 300px;
+  /* margin:0 40%; */
+ }
+ 
+
+ /* Utility Class is end here  */
+ 
+.navbar {
+  position: sticky;
+  top: 5px;
+  z-index: 10;
+  margin: 0 10px;
+  height: 5vw;
+  border: 2px solid black;
+  border-bottom: 1vh solid black;
+  border-radius: 20px;
+  background-color: burlywood;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  /* box-sizing: border-box; */
+  /* margin-top: 20px; */
+  transition: 1s;
+}
+
+.navbar ul li a{
+  color: black;
+  background-color: #99feff;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 0.6vw;
+  margin:1.2vw;
+  font-size: 1vw;
+  text-decoration: none;
+  transition: 0.5s;
+} 
+.navbar ul li a:hover{
+  font-size: 1.3vw;
+  color: blue;
+  background-color:turquoise;
+  border: none;
+  text-decoration: underline;
+  /* transition: none; */
+}
+
+img {
+  border: 3px;
+  padding: 5px;
+  border-left: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+ 
+}
+
+a {
+  background-color: none;
+  text-decoration: none;
+  color: none;
+}
+
+a:hover {
+  background-color: skyblue;
+  text-decoration: underline;
+  color: black;
+}
+
+/* footer paragraph */
+div>p{
+  font-size: 1.2rem;
+}
+
+
+.thala{
+  color: darkolivegreen;
+  font-size: 1.5em;
+  margin: 20px ;
+}
+
+#main-img{
+  border: 15px solid white;
+  height: 60vh;
+  width: 90vw;
+  margin: 0 auto 0 30px;
+}
+
+#msdheading{
+  font-size: 4vw ;
+  font-weight:bolder;
+  color: darkmagenta;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 15px darkmagenta;
+  margin: 0;
+  padding: 0;
+
+}
+
+ #msdheading img{
+     margin:1vw 1.2vw;
+
+}
+/* 
+.imghead1{
+        background-color: red;
+        position: absolute;
+        top: 27vh;
+        right:50vw;
+}
+
+.imghead2{
+       background-color: red;
+       position: absolute;
+       top: 42vh;
+       right:50vw;
+}
+.imghead3{
+  background-color: red;
+       position: absolute;
+       top: 157vh;
+       right: 48vw;
+} */
+
+.cool{
+  color: darkmagenta;
+}
+
+.bahubali{
+  background-color: #96d4d4;
+  /* border: 2px solid #000; */
+  outline: 2px solid rgb(58, 186, 236);
+  /* color: darkmagenta; */
+  color: blue;
+  width: 600px;
+  padding: 8px;
+  margin: auto;
+  margin-bottom: 15px;
+  font-size: 1.5vw;
+  font-weight:bolder;
+}
+
+
+.intromsd {
+  background-color: #96d4d4;
+  border: 2px solid #000;
+  outline: 2px solid rgb(58, 186, 236);
+  /* color: darkmagenta; */
+  color: blue;
+  width: 1200px;
+  padding: 20px 30px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 1.5vw;
+  font-weight: 200px;
+  
+}
+
+.intromsd a{
+  color: blue;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: var(--background);
+  text-decoration: underline;
+}
+
+.msddetails {
+  background-color: #96d4d4;
+  width: 1300px;
+  /* border: 5px solid #99feff; */
+  padding: 50px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  /* font-size: none; */
+  font-size:1.4vw;
+  box-shadow: 10px 10px 25px rgb(76, 133, 156) ,-10px -10px 25px rgb(76, 133, 156) ;
+ 
+}
+.msddetails h1{
+  text-align: center;
+  text-decoration: underline;
+  /* font-family: 'Syne Mono', monospace; */
+
+}
+
+.tables {
+  border: 3px solid black;
+  font-size: 4.5vh;
+  color: white;
+  
+}
+
+table,
+th,
+td {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-collapse: separate;
+}
+
+table {
+  border: 2px solid black;
+  width: 500px;
+  height: 100%;
+  
+}
+
+th,
+td {
+  background-color: #96d4d4;
+  font-size: 16px;
+  height: 50px;
+  padding-left: 25px;
+  
+}
+
+.flextable{
+  display: flex;
+  justify-content: space-evenly;
+  /* font-family:monospace; */
+}
+
+/* .flextable {
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.imgstyle {
+  height: 350px;
+  width: 600px;
+  margin: 0 2vw 0 6vw;
+  display:inline-flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  /* margin:0px 0px; */
+  /* border: 2px solid black; */
+}
+
+.imgstyle-last{
+  margin: 0 28vw;
+}
