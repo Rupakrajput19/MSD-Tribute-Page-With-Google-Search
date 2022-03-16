@@ -272,3 +272,53 @@ hr {
 #bottom a:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    height: 160px;
+  }
+  .navbar .left-navbar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .navbar .right-navbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+  }
+  .point {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 160px;
+    margin-bottom: 8px;
+  }
+  .point .material-icons-symbols {
+    font-size: 15px;
+  }
+  .point a {
+    font-size: 15px;
+    padding: 2px;
+    margin: 0;
+  }
+  .point .right a {
+    display: none;
+  }
+  .containt {
+    margin: 10px;
+  }
+  .searchinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    height: 20px;
+    width: 350px;
+  }
+  .searchinput input {
+    font-size: 16px;
+  }
+}
