@@ -264,14 +264,14 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin-top: 20px;
   /* color: rgb(100, 99, 99); */
   color: var(--color);
   border: 1px solid rgb(218, 215, 215);
   height: 70px;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 2px;
   background-color: rgb(240, 239, 239);
 }
 
@@ -284,9 +284,9 @@ hr {
   text-decoration: underline;
 }
 
-/* CSS Media Query File is Start Here */
+                                                                  /* CSS Media Query File is Start Here */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .navbar {
     height: 145px;
   }
