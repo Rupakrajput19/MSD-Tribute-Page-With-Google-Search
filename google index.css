@@ -236,7 +236,7 @@ hr {
   color: #202124;
 }
 .containt .heading {
-  margin: 10px 10px;
+  margin: 10px 0px;
   padding: 0px;
   font-weight: 549;
   font-size: 25px;
@@ -259,32 +259,106 @@ hr {
   justify-content: center;
 }
 
-#bottom {
+
+
+footer {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* flex-wrap: wrap; */
-  margin-top: 20px;
-  /* color: rgb(100, 99, 99); */
-  color: var(--color);
-  border: 1px solid rgb(218, 215, 215);
-  height: 70px;
-  text-align: center;
-  padding: 10px 2px;
+  flex-wrap:wrap; 
+  /* align-items: center; */
+  /* justify-content: center; */
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+  /* font-family: none; */
   background-color: rgb(240, 239, 239);
 }
 
-#bottom a {
-  color: #660099;
+.bottom-first{
+  border-bottom: 1px solid #dadce0;
+  height: 30px;
+  padding-top: 22px;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.bottom-first a{
+  color:#202124;
+}
+
+.bottom-first .india{
+  margin: 0px 10px 0px 200px;
+  padding: 8px;
+  color: var(--color);
+  border-right: 1px solid rgb(206, 200, 200);
+}
+
+.bottom-first .india:hover{
+  color: rgb(32, 30, 30);
+}
+
+.bottom-first strong{
+  cursor: pointer;
+  color:#333638;
+  font-weight: 900;
+}
+.bottom-first .location{
+  cursor: pointer;
+  /* color: #660099; */
+  color: rgb(83, 83, 247);
+}
+.bottom-mid {
+  border-bottom: 1px solid #dadce0;
+  height: 30px;
+  padding-top: 22px;
+  margin-left: 217px;
+  font-size:17px;
+}
+.bottom-mid a{
+  margin: 0 25px 0 0;
+  color: var(--color);
+ 
+  /* margin: 0px 10px 0px 200px; */
+  /* background-color: rgb(240, 239, 239); */
+}
+.bottom-mid  a:hover {
+  color: rgb(32, 30, 30);
+}
+
+.bottom-last {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+  /* text-align: center; */
+  /* margin-top: 20px; */
+  /* color: rgb(100, 99, 99); */
+  /* border: 1px solid rgb(218, 215, 215); */
+  color: var(--color);
+  height: 50px;
+  margin: 0px 0px 0px 208px;
+  padding: 15px 0px 0px 10px;
+  /* background-color: rgb(240, 239, 239); */
+}
+
+.bottom-last a {
+  /* color: #660099; */
+  color: rgb(83, 83, 247);
   background-color: rgb(243, 241, 241);
 }
 
-#bottom a:hover {
+.bottom-last a:hover {
   text-decoration: underline;
 }
 
-                                                                  /* CSS Media Query File is Start Here */
+
+
+
+
+                                               /* CSS Media Query File is Start Here */
 
 @media only screen and (max-width: 600px) {
   .navbar {
@@ -369,5 +443,23 @@ hr {
   }
   .belowdetail {
     padding: 0px;
+  }
+  .bottom-first .india{
+    margin-left: 0px;
+    font-size:16px;
+  }
+  .bottom-first strong{
+    font-size:15px;
+  }
+  .bottom-first .location{
+    font-size:14px;
+  }
+  .bottom-mid{
+    margin-left: 15px;
+    font-size:16px;
+  }
+  .bottom-last{
+    margin-left: 6px;
+    /* font-size:16px; */
   }
 }
