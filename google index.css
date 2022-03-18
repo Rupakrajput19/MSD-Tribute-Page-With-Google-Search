@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
+} 
 
 /* body{
     background-color: whitesmoke;
@@ -360,7 +360,7 @@ footer {
 
 
 
-/* CSS Media Query File is Start Here */
+                                                  /* CSS Media Query File is Start Here */
 
 @media only screen and (max-width: 600px) {
   .navbar {
