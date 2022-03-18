@@ -221,7 +221,7 @@ hr {
 .point .right:hover {
   border-radius: 3px;
   border: 1px solid #dadce0;
-  /* background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f9fa),to(#f8f9fa)); */
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f9fa),to(#f8f9fa));
 }
 
 .containt {
