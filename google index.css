@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-} 
+}
 
 /* body{
     background-color: whitesmoke;
@@ -163,6 +163,7 @@ hr {
   margin-right: 300px;
   height: 30px;
   max-width: 800px;
+  /* border-bottom:1px solid var(--color) ; */
   /* border: 1px solid black; */
   /* background-color: aquamarine ; */
 }
@@ -285,7 +286,12 @@ footer {
   font-size: 17px;
   margin-left: 10px;
 }
-
+.bottom-first div{
+  position: absolute;
+  top: 15px;
+  padding: 5px;
+  margin: 0 0 0 270px ;
+}
 .bottom-first a{
   color:#202124;
 }
@@ -311,6 +317,11 @@ footer {
   /* color: #660099; */
   color: rgb(83, 83, 247);
 }
+.bottom-first .update{
+  cursor: pointer;
+  /* color: #660099; */
+  color: rgb(83, 83, 247);
+}
 .bottom-mid {
   border-bottom: 1px solid #dadce0;
   height: 30px;
@@ -321,7 +332,6 @@ footer {
 .bottom-mid a{
   margin: 0 25px 0 0;
   color: var(--color);
- 
   /* margin: 0px 10px 0px 200px; */
   /* background-color: rgb(240, 239, 239); */
 }
@@ -343,6 +353,7 @@ footer {
   height: 50px;
   margin: 0px 0px 0px 208px;
   padding: 15px 0px 0px 10px;
+  line-height: 25px;
   /* background-color: rgb(240, 239, 239); */
 }
 
@@ -360,11 +371,11 @@ footer {
 
 
 
-                                                  /* CSS Media Query File is Start Here */
+/* CSS Media Query File is Start Here */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .navbar {
-    height: 145px;
+    height: 140px;
   }
   .navbar .left-navbar .hamburger {
     visibility: visible;
@@ -386,16 +397,18 @@ footer {
   .navbar .right-navbar {
     position: absolute;
     top: 5px;
-    right: 5px;
+    right: 10px;
     margin: 0;
   }
+
   .navbar .right-navbar #setting {
     visibility: hidden;
   }
 
   .material-icons {
-    font-size: 20px;
+    font-size: 22px;
   }
+
   .point {
     margin-left: 0px;
     margin-right: 0px;
@@ -421,8 +434,8 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 90px;
-    left: 5px;
+    top: 80px;
+    left: 6px;
     height: 20px;
     width: 340px;
   }
@@ -432,12 +445,15 @@ footer {
   .containt {
     margin: 5px;
   }
+  .containt span{
+    font-size: 14px;
+  }
   .containt .heading {
     font-weight: 100;
     font-size: 22px;
     margin: 5px 0px;
   }
-  .containt p {
+  .containt a p{
     font-size: 12px;
   }
   .containt .detail {
@@ -446,22 +462,45 @@ footer {
   .belowdetail {
     padding: 0px;
   }
+  .bottom-first{
+    height: 45px;
+    line-height: 20px;
+  }
   .bottom-first .india{
     margin-left: 0px;
     font-size:16px;
   }
+  .bottom-first div{
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    margin: 0 0 0px 60px ;
+  }
   .bottom-first strong{
     font-size:15px;
   }
-  .bottom-first .location{
+  .bottom-first  .location{
+    font-size:14px;
+  }
+  .bottom-first .update{
     font-size:14px;
   }
   .bottom-mid{
     margin-left: 15px;
-    font-size:16px;
+    font-size:15px;
+  }
+  .bottom-mid a{
+    margin: 0 15px 0 0;
   }
   .bottom-last{
+    height: 100px;
     margin-left: 6px;
     /* font-size:16px; */
+  }
+  .bottom-last p{
+    text-align: center;
+  }
+  .bottom-last a{
+    display: block;
   }
 }
