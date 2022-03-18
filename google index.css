@@ -18,7 +18,7 @@ a {
 }
 
 hr {
-  background-color: var(--color);
+  color: white;
 }
 
 /* fallback */
@@ -90,6 +90,8 @@ hr {
   top: 0;
   right: 0;
   left: 0;
+  /* border-bottom: 1px solid black; */
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
   /* border: 2px solid black; */
 }
 .navbar .left-navbar .hamburger {
@@ -155,7 +157,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 100px;
   margin-bottom: 10px;
   margin-left: 220px;
   margin-right: 300px;
@@ -358,7 +360,7 @@ footer {
 
 
 
-                                               /* CSS Media Query File is Start Here */
+/* CSS Media Query File is Start Here */
 
 @media only screen and (max-width: 600px) {
   .navbar {
