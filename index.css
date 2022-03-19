@@ -146,7 +146,7 @@ span:nth-child(6){
   flex-basis: 100%; */
   height: 25px;
   padding: 10px 10px;
-  margin: 10px auto 20px auto;
+  margin: 10px auto 35px auto;
   /* width: 600px; */
   /* min-width:50vw; */
   max-width: 584px;
@@ -192,16 +192,16 @@ span:nth-child(6){
 
 .searchbtn {
   text-align: center;
-  margin: 15px;
+  margin: 20px 0px;
 }
 
-.searchbtn a {
+.searchbtn a{
   /* cursor: pointer; */
   background-color: #f8f8f8;
   color: rgb(104, 100, 100);
   font-size: 15px;
   padding: 10px 15px;
-  margin: 15px;
+  margin: auto 15px;
 }
 
 .searchbtn a:hover {
@@ -211,7 +211,7 @@ span:nth-child(6){
 
 .language {
   text-align: center;
-  margin: 25px;
+  margin: 30px;
   font-size: 15px;
 }
 .language a {
@@ -256,6 +256,7 @@ footer {
   text-decoration: underline;
 }
 
+                                                                  /* CSS Media Query File is Start Here */
 @media only screen and (max-width: 600px) {
 
   .header .left-header a {
