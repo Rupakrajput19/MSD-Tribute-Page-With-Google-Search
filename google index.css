@@ -371,7 +371,7 @@ footer {
 
 
 
-                                                                   /* CSS Media Query File is Start Here */
+/* CSS Media Query File is Start Here */
 
 @media only screen and (max-width: 1000px) {
   .navbar {
@@ -399,13 +399,13 @@ footer {
     width: 100px;
     position: absolute;
     top: 0;
-    left: 100px;
+    left: 115px;
   }
 
   .navbar .right-navbar {
     position: absolute;
     top: 5px;
-    right: -75px;
+    right: 2px;
     margin: 0;
   }
 
@@ -494,15 +494,15 @@ footer {
     font-size:14px;
   }
   .bottom-mid{
-    margin-left: 15px;
+    margin-left: 16px;
     font-size:16px;
   }
   .bottom-mid a{
-    margin: 0 17px 0 0;
+    margin: 0 18px 0 0;
   }
   .bottom-last{
     height: 100px;
-    margin-left: 6px;
+    margin:0px 5px;
     /* font-size:16px; */
   }
   .bottom-last p{
