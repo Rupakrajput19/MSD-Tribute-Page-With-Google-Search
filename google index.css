@@ -112,7 +112,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 15px 20px ;
+  margin: 15px 20px;
 }
 .right-navbar img {
   /* border: 1px solid black; */
@@ -221,7 +221,13 @@ hr {
 .point .right:hover {
   border-radius: 3px;
   border: 1px solid #dadce0;
-  background-image: -webkit-gradient(linear,left top,left bottom,from(#f8f9fa),to(#f8f9fa));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#f8f9fa),
+    to(#f8f9fa)
+  );
 }
 
 .containt {
@@ -262,13 +268,11 @@ hr {
   justify-content: center;
 }
 
-
-
 footer {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  flex-wrap:wrap; 
+  flex-wrap: wrap;
   /* align-items: center; */
   /* justify-content: center; */
   position: absolute;
@@ -279,45 +283,45 @@ footer {
   background-color: rgb(240, 239, 239);
 }
 
-.bottom-first{
+.bottom-first {
   border-bottom: 1px solid #dadce0;
   height: 30px;
   padding-top: 22px;
   font-size: 17px;
   margin-left: 10px;
 }
-.bottom-first div{
+.bottom-first div {
   position: absolute;
   top: 15px;
   padding: 5px;
-  margin: 0 0 0 270px ;
+  margin: 0 0 0 270px;
 }
-.bottom-first a{
-  color:#202124;
+.bottom-first a {
+  color: #202124;
 }
 
-.bottom-first .india{
+.bottom-first .india {
   margin: 0px 10px 0px 200px;
   padding: 8px;
   color: var(--color);
   border-right: 1px solid rgb(206, 200, 200);
 }
 
-.bottom-first .india:hover{
+.bottom-first .india:hover {
   color: rgb(32, 30, 30);
 }
 
-.bottom-first strong{
+.bottom-first strong {
   cursor: pointer;
-  color:#333638;
+  color: #333638;
   font-weight: 900;
 }
-.bottom-first .location{
+.bottom-first .location {
   cursor: pointer;
   /* color: #660099; */
   color: rgb(83, 83, 247);
 }
-.bottom-first .update{
+.bottom-first .update {
   cursor: pointer;
   /* color: #660099; */
   color: rgb(83, 83, 247);
@@ -326,16 +330,16 @@ footer {
   height: 30px;
   padding-top: 22px;
   margin-left: 217px;
-  font-size:17px;
+  font-size: 17px;
   border-bottom: 1px solid #dadce0;
 }
-.bottom-mid a{
+.bottom-mid a {
   margin: 0 25px 0 0;
   color: var(--color);
   /* margin: 0px 10px 0px 200px; */
   /* background-color: rgb(240, 239, 239); */
 }
-.bottom-mid  a:hover {
+.bottom-mid a:hover {
   color: rgb(32, 30, 30);
 }
 
@@ -367,13 +371,9 @@ footer {
   text-decoration: underline;
 }
 
+/* CSS Media Query File is Start Here */
 
-
-
-
-                                           /* CSS Media Query File is Start Here */
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
   .navbar {
     height: 140px;
     position: static;
@@ -453,7 +453,7 @@ footer {
   .containt {
     margin: 5px;
   }
-  .containt span{
+  .containt span {
     font-size: 14px;
   }
   .containt .heading {
@@ -461,7 +461,7 @@ footer {
     font-size: 22px;
     margin: 5px 0px;
   }
-  .containt a p{
+  .containt a p {
     font-size: 12px;
   }
   .containt .detail {
@@ -470,45 +470,47 @@ footer {
   .belowdetail {
     padding: 0px;
   }
-  .bottom-first{
+  .bottom-first {
     height: 35px;
     line-height: 20px;
   }
-  .bottom-first .india{
+  .bottom-first .india {
     margin-left: 0px;
-    font-size:16px;
+    font-size: 16px;
   }
-  .bottom-first div{
+  .bottom-first div {
     position: absolute;
     top: 6px;
     padding: 5px;
-    margin: 0 0 0px 60px ;
+    margin: 0 0 0px 60px;
   }
-  .bottom-first strong{
-    font-size:15px;
+  .bottom-first strong {
+    font-size: 15px;
   }
-  .bottom-first  .location{
-    font-size:14px;
+  .bottom-first .location {
+    font-size: 14px;
   }
-  .bottom-first .update{
-    font-size:14px;
+  .bottom-first .update {
+    font-size: 14px;
   }
-  .bottom-mid{
+  .bottom-mid {
+    height: 25px;
     margin-left: 16px;
-    font-size:16px;
+    font-size: 16px;
+    padding-top: 15px;
   }
-  .bottom-mid a{
-    margin: 0 20px 0 0;
+  .bottom-mid a {
+    margin: 0 22px 0 0;
   }
-  .bottom-last{
+  .bottom-last {
     height: 100px;
-    margin:0px 5px;
+    margin: 0px 5px;
     /* font-size:16px; */
   }
-  .bottom-last p{
+  .bottom-last p {
     text-align: center;
   }
-  .bottom-last a{
+  .bottom-last a {
     display: block;
   }
 }
