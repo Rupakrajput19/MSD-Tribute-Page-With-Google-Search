@@ -434,6 +434,9 @@ footer {
   }
 }
 
+
+
+
 @media screen and (max-width: 599px) {
   .navbar {
     height: 140px;
@@ -479,7 +482,7 @@ footer {
   }
 
   .point {
-    margin-left: 0px;
+    margin-left: -5px;
     margin-right: 0px;
     margin-top: -5px;
     margin-bottom: 8px;
