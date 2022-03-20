@@ -373,7 +373,7 @@ footer {
 
 /* CSS Media Query File is Start Here */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .navbar {
     height: 140px;
     position: static;
