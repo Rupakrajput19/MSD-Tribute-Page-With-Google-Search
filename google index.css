@@ -377,7 +377,7 @@ footer {
                                                         /* CSS Media Query File is Start Here */
 
 
-                                                        
+
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
   .point {
@@ -402,7 +402,7 @@ footer {
     margin: 10px;
   }
   .containt span {
-    font-size: 14px;
+    font-size: 12px;
   }
   .containt .heading {
     font-weight: 100;
@@ -435,9 +435,7 @@ footer {
 }
 
 
-
-
-@media screen and (max-width: 599px) {
+@media only screen and (max-width: 599px) {
   .navbar {
     height: 140px;
     position: static;
