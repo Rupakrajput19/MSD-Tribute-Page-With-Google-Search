@@ -244,6 +244,9 @@ hr {
   margin-top: 15px;
   color: #202124;
 }
+.containt a p {
+  font-size: 17px;
+}
 .containt .heading {
   margin: 10px 0px;
   padding: 0px;
@@ -371,11 +374,12 @@ footer {
   text-decoration: underline;
 }
 
-/* CSS Media Query File is Start Here */
+                                                        /* CSS Media Query File is Start Here */
 
+
+                                                        
 
 @media screen and (min-width: 600px) and (max-width: 1000px) {
-  
   .point {
     margin-left: -5px;
     margin-right: 15px;
@@ -390,48 +394,45 @@ footer {
     padding: 0px;
     margin: 5px;
   }
-  .point .right{
+  .point .right {
     margin: 0 50px;
   }
 
   .containt {
-    margin: 20px 10px;
+    margin: 5px;
   }
   .containt span {
-    font-size: 16px;
+    font-size: 14px;
   }
   .containt .heading {
     font-weight: 100;
-    font-size: 26px;
-    margin: 5px;
+    font-size: 22px;
+    margin: 5px 0px;
   }
   .containt a p {
-    font-size: 18px;
+    font-size: 12px;
   }
   .containt .detail {
-    font-size: 18px;
-    margin: 5px;
+    font-size: 16px;
   }
   .belowdetail {
     padding: 0px;
   }
 
-.bottom-first .india{
-  margin: 0 0 0 10px;
+  .bottom-first .india {
+    margin: 0 0 0 10px;
+  }
+  .bottom-first div {
+    margin: 0 0 0 72px;
+  }
+  .bottom-mid {
+    margin: 0 0 0 25px;
+  }
+  .bottom-last {
+    height: 60px;
+    margin: 0 0 0 15px;
+  }
 }
-.bottom-first div{
-  margin: 0 0 0 72px;
-}
-.bottom-mid{
-  margin: 0 0 0 25px;
-}
-.bottom-last{
-  height:60px;
-  margin: 0 0 0 15px;
-}
-}
-
-
 
 @media screen and (max-width: 599px) {
   .navbar {
