@@ -1,12 +1,10 @@
-
-
 /* Animationheading Start */
 #load{
   position: fixed;
   top: 0px;
   z-index: 1000;
   height: 5px;
-  width: 100vw;
+  width: 1500px;
   background-color: var(--background); /* Here i used a global variable for background color thats i already defined in (msd.css file )  */
   /* background-color: black; */
   /* border: 2px solid blue; */
@@ -22,24 +20,26 @@
   z-index: 1000;
   margin: 0;
   padding: 0;
-  /* width: 8vw; */
+  /* width: 5px; */
   animation-name: loading;
   animation-duration: 1s;
   animation-timing-function: ease-in;
   /* animation-delay: 0.5s; */
-  animation-iteration-count: 1;
-  animation-direction:alternate;
-}
+   animation-iteration-count:1;
+  /* animation-iteration-count: infinite; */
+  animation-direction: alternate;
+  /* animation-direction:forward; */
+} 
 
 @keyframes loading{
   10% {
-    width: 10vw;
+    width: 100px;
   }
   40%{
-    width: 60vw;
+    width: 700px;
   }
   100% {
-    width: 95vw;
+    width: 1500px;
   }
 }
 
@@ -47,16 +47,16 @@
 
 
 #animationheading{
-    font-size: 4vw;
-    width: 50vw;
-    margin: 5vh auto;
+    font-size:50px;
+    width: 550px;
+    margin: 50px auto;
     font-weight:bolder;
     text-decoration: underline;
     /* color: red; */
     background-color: var(--background);
     border: 5px solid black;
     border-radius: 45%;
-    padding:1.5vw;
+    padding: 20px;
     /* box-sizing: border-box; */
     text-align: center;
     cursor: pointer;
@@ -70,55 +70,55 @@
   }
   /* @keyframes width-animation{
     from{
-      width: 30vw;
+      width: 300px;
       color: white;
     }
     to{
-      width: 80vw;
+      width: 800px;
       color: black;
     }
   } */
   
   @keyframes msd-animation{
-    5%{
+    10%{
       color: var(--background);
       background-color: black;
-      /* width: 25vw; */
+      /* width: 250px; */
     }
     30%{
       color: black;
       background-color: lightgreen;
-      width: 60vw;
+      width: 800px;
     }
     50%{
       color: lightgreen;
       background-color: red;
-      width: 70vw;
+      width: 1000px;
     }
     75%{
       color: red;
       background-color: blue;
-      width: 80vw;
+      width: 1200px;
     }
     100%{
       color: blue;
       background-color:var(--background) ;
-      width: 90vw;
+      width: 1400px;
     }
     /* 75%{
       color: orange;
       background-color: white;
-      width: 85vw;
+      width: 850px;
     }
     100%{
       color: white;
       background-color: black;
-      width: 95vw;
+      width: 950px;
     } */
   }
   /* .animationheading:hover{
     color: white;
-    width: 95vw;
+    width: 950px;
     background-color: black;
      transition-property:width;
     transition-duration:1s;
@@ -128,4 +128,3 @@
   } */
     
     /* Animationheading End */
-   
