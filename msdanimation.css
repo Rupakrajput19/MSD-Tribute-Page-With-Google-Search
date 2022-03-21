@@ -39,7 +39,7 @@
     width: 700px;
   }
   100% {
-    width: 1500px;
+    width: 15000px;
   }
 }
 
@@ -88,22 +88,22 @@
     30%{
       color: black;
       background-color: lightgreen;
-      width: 800px;
+      width: 700px;
     }
     50%{
       color: lightgreen;
       background-color: red;
-      width: 1000px;
+      width: 950px;
     }
     75%{
       color: red;
       background-color: blue;
-      width: 1200px;
+      width: 1100px;
     }
     100%{
       color: blue;
       background-color:var(--background) ;
-      width: 1400px;
+      width: 1300px;
     }
     /* 75%{
       color: orange;
@@ -128,3 +128,4 @@
   } */
     
     /* Animationheading End */
+   
