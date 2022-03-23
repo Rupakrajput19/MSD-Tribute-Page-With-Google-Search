@@ -186,9 +186,9 @@ span:nth-child(6){
     -webkit-font-smoothing: antialiased; */
 }
 
-/* .material-icons-search:hover {
-  text-decoration:none;
-} */
+ .material-icons-search:nth-child(1) {
+  padding-right:15px;
+} 
 
 .searchbtn {
   text-align: center;
