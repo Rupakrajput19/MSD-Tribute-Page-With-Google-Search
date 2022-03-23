@@ -55,7 +55,7 @@ body {
 /* Utility Class is end here  */
 
 .navbar{
-  position: sticky;
+  position:fixed;
   top: 5px;
   z-index: 100;
   margin: 0 10px 0 25px;
@@ -152,7 +152,7 @@ div > p {
   /* text-align: center; */
   text-decoration: underline;
   text-shadow: 5px 5px 15px darkmagenta;
-  margin: 80px 250px 0px 250px;
+  margin: 80px 250px 10px 250px;
   padding: 0;
 }
 
