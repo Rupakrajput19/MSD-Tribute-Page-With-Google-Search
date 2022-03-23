@@ -39,13 +39,14 @@
     width: 700px;
   }
   100% {
-    width: 15000px;
+    width: 1450px;
   }
 }
 
 
 
 
+/*
 #animationheading{
     font-size:50px;
     width: 550px;
@@ -53,21 +54,21 @@
     font-weight:bolder;
     text-decoration: underline;
     /* color: red; */
-    background-color: var(--background);
+    /* background-color: var(--background);
     border: 5px solid black;
     border-radius: 45%;
-    padding: 20px;
+    padding: 20px 20px 20px 60px ; */
     /* box-sizing: border-box; */
-    text-align: center;
-    cursor: pointer;
+    /* text-align: center; */
+    /* cursor: pointer; */
     /* animation-name: width-animation; */
-    animation-name: msd-animation;
+    /* animation-name: msd-animation;
     animation-duration: 8s;
     animation-timing-function: ease-in-out;
     animation-delay: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-  }
+  } */
   /* @keyframes width-animation{
     from{
       width: 300px;
@@ -79,12 +80,12 @@
     }
   } */
   
-  @keyframes msd-animation{
+  /* @keyframes msd-animation{
     10%{
       color: var(--background);
-      background-color: black;
+      background-color: black; */
       /* width: 250px; */
-    }
+    /* }
     30%{
       color: black;
       background-color: lightgreen;
@@ -104,7 +105,7 @@
       color: blue;
       background-color:var(--background) ;
       width: 1300px;
-    }
+    } */
     /* 75%{
       color: orange;
       background-color: white;
@@ -115,7 +116,7 @@
       background-color: black;
       width: 950px;
     } */
-  }
+  /* } */
   /* .animationheading:hover{
     color: white;
     width: 950px;
@@ -128,4 +129,4 @@
   } */
     
     /* Animationheading End */
-   
+   */
