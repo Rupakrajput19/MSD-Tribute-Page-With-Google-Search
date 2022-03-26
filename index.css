@@ -223,7 +223,7 @@ span:nth-child(6){
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   left: 0;
