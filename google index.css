@@ -250,9 +250,6 @@ hr {
   margin-top: 15px;
   color: #202124;
 }
-.containt a{
-  margin-top:5px;
-}
 .containt a p {
   font-size: 17px;
 }
@@ -420,7 +417,9 @@ footer {
   }
   .containt a p {
     font-size: 12px;
-    margin: 10px 0px;
+  }
+  .containt a{
+  margin-top:10px;
   }
   .containt .detail {
     font-size: 16px;
