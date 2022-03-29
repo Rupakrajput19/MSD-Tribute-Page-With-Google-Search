@@ -250,6 +250,9 @@ hr {
   margin-top: 15px;
   color: #202124;
 }
+.containt a{
+  margin-top:5px;
+}
 .containt a p {
   font-size: 17px;
 }
