@@ -294,7 +294,7 @@ footer {
 
 .bottom-first {
   border-bottom: 1px solid #dadce0;
-  height: 30px;
+  height: 28px;
   padding-top: 22px;
   font-size: 17px;
   margin-left: 10px;
@@ -324,6 +324,7 @@ footer {
   cursor: pointer;
   color: #333638;
   font-weight: 900;
+  margin: 0 0 0 -10px;
 }
 .bottom-first .location {
   cursor: pointer;
@@ -335,12 +336,14 @@ footer {
   /* color: #660099; */
   color: rgb(83, 83, 247);
 }
-.bottom-mid {
-  height: 30px;
+.bottom-mid{
+  height: 28px;
   padding-top: 22px;
-  margin-left: 217px;
   font-size: 17px;
   border-bottom: 1px solid #dadce0;
+}
+.bottom-mid div{
+  margin-left: 217px;
 }
 .bottom-mid a {
   margin: 0 25px 0 0;
@@ -363,7 +366,7 @@ footer {
   /* color: rgb(100, 99, 99); */
   /* border: 1px solid rgb(218, 215, 215); */
   color: var(--color);
-  height: 50px;
+  height: 55px;
   margin: 0px 0px 0px 208px;
   padding: 15px 0px 0px 10px;
   line-height: 25px;
@@ -390,15 +393,15 @@ footer {
     margin-left: -5px;
     margin-right: 15px;
     margin-top: 115px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
   }
   .point .material-icons-symbols {
-    font-size: 18px;
+    font-size: 17px;
   }
   .point a {
-    font-size: 18px;
+    font-size: 17px;
     padding: 0px;
-    margin: 5px;
+    margin: 10px;
   }
   .point .right {
     margin: 0 50px;
@@ -416,10 +419,8 @@ footer {
     margin: 5px 0px;
   }
   .containt a p {
-    font-size: 12px;
-  }
-  .containt a{
-  margin-top:10px;
+    font-size: 14px;
+    margin: 15px 0px 10px 0px;
   }
   .containt .detail {
     font-size: 16px;
@@ -429,19 +430,21 @@ footer {
   }
 
   .bottom-first .india {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 8px;
   }
   .bottom-first div {
-    margin: 0 0 0 72px;
+    margin: 0 0 0 75px;
   }
   .bottom-mid {
-    margin: 0 0 0 25px;
+    margin: 0 0 0 -190px;
   }
   .bottom-last {
     height: 60px;
     margin: 0 0 0 15px;
   }
 }
+
+
 
 
 @media only screen and (max-width: 599px) {
@@ -495,12 +498,12 @@ footer {
     margin-bottom: 8px;
   }
   .point .material-icons-symbols {
-    font-size: 16px;
+    font-size: 14px;
   }
   .point a {
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px;
-    margin: 2px;
+    margin: 5px;
   }
   .point .right a {
     display: none;
@@ -517,9 +520,11 @@ footer {
     left: 6px;
     height: 20px;
     width: 340px;
+    background: none;
   }
   .searchinput input {
     font-size: 16px;
+    background: none;
   }
   .containt {
     margin: 5px;
@@ -547,7 +552,8 @@ footer {
   }
   .bottom-first .india {
     margin-left: 0px;
-    font-size: 16px;
+    padding-bottom: 15px;
+    font-size: 14px;
   }
   .bottom-first div {
     position: absolute;
@@ -566,9 +572,9 @@ footer {
   }
   .bottom-mid {
     height: 25px;
-    margin-left: 16px;
-    font-size: 16px;
-    padding-top: 15px;
+    margin-left: -198px;
+    font-size: 15px;
+    padding-top: 14px;
   }
   .bottom-mid a {
     margin: 0 22px 0 0;
@@ -576,7 +582,7 @@ footer {
   .bottom-last {
     height: 100px;
     margin: 0px 5px;
-    /* font-size:16px; */
+    font-size:14px;
   }
   .bottom-last p {
     text-align: center;
