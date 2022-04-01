@@ -406,7 +406,6 @@ footer {
   .point .right {
     margin: 0 50px;
   }
-
   .containt {
     margin: 10px;
   }
@@ -419,8 +418,8 @@ footer {
     margin: 5px 0px;
   }
   .containt a p {
-    font-size: 14px;
-    margin: 15px 0px 10px 0px;
+    font-size: 13px;
+    margin: 20px 0px 10px 0px;
   }
   .containt .detail {
     font-size: 16px;
@@ -428,12 +427,11 @@ footer {
   .belowdetail {
     padding: 0px;
   }
-
   .bottom-first .india {
     margin: 0 0 0 8px;
   }
   .bottom-first div {
-    margin: 0 0 0 75px;
+    margin: 0 0 0 80px;
   }
   .bottom-mid {
     margin: 0 0 0 -190px;
