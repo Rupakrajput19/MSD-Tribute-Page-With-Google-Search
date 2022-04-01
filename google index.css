@@ -293,7 +293,6 @@ footer {
 }
 
 .bottom-first {
-  border-bottom: 1px solid #dadce0;
   height: 28px;
   padding-top: 22px;
   font-size: 17px;
@@ -340,6 +339,7 @@ footer {
   height: 28px;
   padding-top: 22px;
   font-size: 17px;
+  border-top: 1px solid #dadce0;
   border-bottom: 1px solid #dadce0;
 }
 .bottom-mid div{
@@ -559,7 +559,7 @@ footer {
     position: absolute;
     top: 6px;
     padding: 5px;
-    margin: 0 0 0px 60px;
+    margin: 0 0 0px 62px;
   }
   .bottom-first strong {
     font-size: 15px;
