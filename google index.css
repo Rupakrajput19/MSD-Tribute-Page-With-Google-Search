@@ -236,7 +236,7 @@ hr {
   );
 }
 
-.containt {
+.contents{
   /* border: 1px solid black; */
   margin-top: 10px;
   margin-left: 235px;
@@ -246,14 +246,18 @@ hr {
   color: var(--color);
 }
 
-.containt p {
+.contents p {
   margin-top: 15px;
   color: #202124;
 }
-.containt a p {
-  font-size: 17px;
+.contents .contents-border{
+  padding-top: 8px;
+  border-top: 2px solid rgb(219, 219, 219);
 }
-.containt .heading {
+.contents a p {
+  font-size: 16px;
+}
+.contents .heading {
   margin: 10px 0px;
   padding: 0px;
   font-weight: 549;
@@ -261,10 +265,10 @@ hr {
   /* color: #1A0DAB; */
   color: #660099;
 }
-.containt .heading:hover {
+.contents .heading:hover {
   text-decoration: underline;
 }
-.containt .detail {
+.contents .detail {
   font-size: 18px;
   color: var(--color);
 }
@@ -406,22 +410,25 @@ footer {
   .point .right {
     margin: 0 50px;
   }
-  .containt {
+  .contents {
     margin: 10px;
   }
-  .containt span {
-    font-size: 12px;
+  .contents .contents-border{
+    border-top: 4px solid rgb(219, 219, 219);
   }
-  .containt .heading {
+  .contents span {
+    font-size: 13px;
+  }
+  .contents .heading {
     font-weight: 100;
     font-size: 22px;
     margin: 5px 0px;
   }
-   .containt a p {
+  .contents a p {
     font-size: 13px;
     margin: 30px 0px 10px 0px;
   }
-  .containt .detail {
+  .contents .detail {
     font-size: 16px;
   }
   .belowdetail {
@@ -524,21 +531,24 @@ footer {
     font-size: 16px;
     background: none;
   }
-  .containt {
+  .contents {
     margin: 5px;
   }
-  .containt span {
-    font-size: 14px;
+  .contents .contents-border{
+    border-top: 6px solid rgb(219, 219, 219);
   }
-  .containt .heading {
+  .contents span {
+    font-size: 12px;
+  }
+  .contents .heading {
     font-weight: 100;
     font-size: 22px;
     margin: 5px 0px;
   }
-  .containt a p {
+  .contents a p {
     font-size: 12px;
   }
-  .containt .detail {
+  .contents .detail {
     font-size: 16px;
   }
   .belowdetail {
