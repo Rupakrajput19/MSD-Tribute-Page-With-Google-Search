@@ -202,13 +202,6 @@ a:hover {
   font-weight: 200px;
 }
 
-.intromsd a {
-  color: blue;
-  padding: 2px;
-  border-radius: 5px;
-  background-color: var(--background);
-  text-decoration: underline;
-}
 .intromsd p::first-letter{
   font-size:xx-large;
 }
@@ -306,35 +299,47 @@ td {
   background-color: rgb(245, 208, 160);
 }
 
+
+
+
+
+
+
+
+
 /* CSS Media Query File is Start Here */
 
-@media only screen and (min-width: 800px) and (max-width: 1200px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .navbar {
-    position: absolute;
+    position: fixed;
     height: 75px;
     width: 1300px;
-    margin: 0 50px 0 50px;
+    margin: 0 40px 0 25px;
   }
 
   .navbar ul li a {
+    font-size: 16px;
     padding: 4px 6px;
     margin: 0 10px 0 15px;
   }
-
+ .navbar ul li a:hover{
+   font-size: 20px;
+ }
   #msdheading {
-    margin: 100px 50px 20px 50px;
+    margin: 100px 0px 20px 50px;
   }
   #msdtop {
     /* width: 550%; */
-    width: 120%;
+    width: 140%;
     margin: auto;
   }
   #main-img {
     width: 1250px;
-    margin: 10px 50px 10px 70px;
+    margin: 10px 30px 10px 25px;
   }
   .msddetails {
-    margin: 50px 30px 20px 120px;
+    width: 1290px;
+    margin: 50px -10px 20px 30px;
   }
   .thala {
     /* width: 290%; */
@@ -344,17 +349,17 @@ td {
   .cool {
     margin: auto auto;
     /* width: 475%; */
-    width: 150%;
+    width: 170%;
   }
   .img-center {
-    margin: 20px 0px 20px 500px;
+    margin: 20px 0px 20px 510px;
   }
   .intromsd {
-    /* width: 1100px; */
-    margin: 20px 50px 50px 100px;
+    width: 1230px;
+    margin: 20px 0px 50px 30px;
   }
   .imgstyle {
-    margin: 20px 0px 20px 450px;
+    margin: 20px 0px 20px 400px;
   }
   /* .center img{
     margin-left: 10px;
@@ -366,20 +371,21 @@ td {
   #timeline {
     margin: auto auto;
     /* width: 435%; */
-    width: 140%;
+    width: 170%;
   }
   #award {
-    width: 140%;
+    width: 170%;
     margin: auto auto;
   }
   #bottom {
-    width: 140%;
+    width: 170%;
     margin: auto;
   }
   .media-center {
     margin: auto auto;
     /* max-width: 100vw; */
-    width: 140%;
+    width: 170%;
     /* width: 435%; */
+    line-height: 30px;
   }
 }
