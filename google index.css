@@ -250,7 +250,7 @@ hr {
   margin-top: 15px;
   color: #202124;
 }
-.contents .contents-border{
+.contents .contents-border {
   padding-top: 8px;
   border-top: 2px solid rgb(219, 219, 219);
 }
@@ -387,12 +387,13 @@ footer {
   text-decoration: underline;
 }
 
-                                                        /* CSS Media Query File is Start Here */
 
 
 
 
-@media only screen and (min-width: 600px) and (max-width: 1000px) {
+/* CSS Media Query File is Start Here */
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
   .point {
     margin-left: -5px;
     margin-right: 15px;
@@ -413,26 +414,28 @@ footer {
   .contents {
     margin: 10px;
   }
-  .contents .contents-border{
+  .contents .contents-border {
+    padding-top: 20px;
     border-top: 4px solid rgb(219, 219, 219);
   }
   .contents span {
-    font-size: 10px;
-  }
-  .contents .heading {
-    font-weight: 100;
-    font-size:20px;
-    margin: 5px 0px;
+    font-size: 8px;
   }
   .contents a p {
     font-size: 10px;
-    margin: 30px 0px 15px 0px;
+    margin: 10px 0px;
   }
-  .detail {
-    font-size: 20px;
+  .contents .heading {
+    font-weight: 100;
+    font-size: 14px;
+    margin: 5px 0px;
+  }
+  .contents .detail {
+    font-size: 12px;
   }
   .belowdetail {
     padding: 0px;
+    font-size: 12px;
   }
   .bottom-first .india {
     margin: 0 0 0 8px;
@@ -450,17 +453,14 @@ footer {
 }
 
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px){
   .navbar {
     height: 140px;
     position: static;
     top: 0;
     right: 0;
     left: 0;
-    /* border-bottom: 1px solid black; */
-    /* box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%); */
     box-shadow: none;
-    /* border: 2px solid black; */
   }
   .navbar .left-navbar .hamburger {
     visibility: visible;
@@ -531,7 +531,8 @@ footer {
   .contents {
     margin: 5px;
   }
-  .contents .contents-border{
+  .contents .contents-border {
+    padding-top: 15px;
     border-top: 6px solid rgb(219, 219, 219);
   }
   .contents span {
@@ -587,7 +588,7 @@ footer {
   .bottom-last {
     height: 100px;
     margin: 0px 5px;
-    font-size:14px;
+    font-size: 14px;
   }
   .bottom-last p {
     text-align: center;
