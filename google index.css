@@ -250,14 +250,15 @@ hr {
   margin-top: 15px;
   color: #202124;
 }
-.contents .contents-border {
+
+.contents-border {
   padding-top: 8px;
   border-top: 2px solid rgb(219, 219, 219);
 }
 .contents a p {
   font-size: 16px;
 }
-.contents .heading {
+.heading {
   margin: 10px 0px;
   padding: 0px;
   font-weight: 549;
@@ -265,10 +266,11 @@ hr {
   /* color: #1A0DAB; */
   color: #660099;
 }
-.contents .heading:hover {
+.heading:hover {
   text-decoration: underline;
 }
-.contents .detail {
+
+.detail {
   font-size: 18px;
   color: var(--color);
 }
@@ -414,7 +416,7 @@ footer {
   .contents {
     margin: 10px;
   }
-  .contents .contents-border {
+  .contents-border {
     padding-top: 20px;
     border-top: 4px solid rgb(219, 219, 219);
   }
@@ -425,12 +427,12 @@ footer {
     font-size: 10px;
     margin: 10px 0px;
   }
-  .contents .heading {
+  .heading {
     font-weight: 100;
     font-size: 14px;
     margin: 5px 0px;
   }
-  .contents .detail {
+  .detail {
     font-size: 12px;
   }
   .belowdetail {
@@ -530,14 +532,14 @@ footer {
   .contents {
     margin: 5px;
   }
-  .contents .contents-border {
+  .contents-border {
     padding-top: 15px;
     border-top: 6px solid rgb(219, 219, 219);
   }
   .contents span {
     font-size: 12px;
   }
-  .contents .heading {
+  .heading {
     font-weight: 100;
     font-size: 22px;
     margin: 5px 0px;
@@ -545,7 +547,7 @@ footer {
   .contents a p {
     font-size: 12px;
   }
-  .contents .detail {
+  .detail {
     font-size: 16px;
   }
   .belowdetail {
