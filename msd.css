@@ -284,7 +284,7 @@ td {
   /* border: 5px solid burlywood; */
   height: 300px;
   width: 500px;
-  margin: 0px 5px 15px 5px;
+  margin: 0 5px 15px 5px;
   /* margin: auto auto; */
   /* border: 2px solid black; */
 }
@@ -297,92 +297,4 @@ td {
   border-top: 1px solid black;
   padding: 10px;
   background-color: rgb(245, 208, 160);
-}
-
-/* CSS Media Query File is Start Here */
-
-@media screen and (max-width: 600px),
-  (min-width: 601px) and (max-width: 1200px) {
-  .navbar {
-    position: fixed;
-    height: 75px;
-    width: 1300px;
-    margin: 0 40px 0 25px;
-  }
-
-  .navbar ul li a {
-    font-size: 16px;
-    padding: 4px 6px;
-    margin: 0 10px 0 15px;
-  }
-  .navbar ul li a:hover {
-    font-size: 20px;
-  }
-  #msdheading {
-    margin: 150px 0px 20px 80px;
-  }
-  #msdtop {
-    /* width: 550%; */
-    width: 125%;
-    margin: auto;
-  }
-  #main-img {
-    width: 1300px;
-    margin: 10px 30px 0 50px;
-  }
-  .msddetails {
-    /* width: 1290px; */
-    padding: 50px;
-    margin: 50px 0px 20px 60px;
-  }
-  .msddetails ul li {
-    line-height: 50px;
-  }
-  .thala {
-    /* width: 290%; */
-    width: 80%;
-    margin: 0 50px 20px 330px;
-  }
-  .cool {
-    margin: 0 auto;
-    /* width: 475%; */
-    width: 160%;
-  }
-  .img-center {
-    margin: 20px 0px 20px 510px;
-  }
-  .intromsd {
-    /* width: 1230px; */
-    margin: 20px 0px 50px 70px;
-  }
-  .imgstyle .img {
-    margin: 20px 0px 20px 420px;
-  }
-  /* .center img{
-    margin-left: 10px;
-  } */
-  /* .center img:nth-child(1){
-    margin-left: 140px;
-  } */
-
-  #timeline {
-    margin: auto auto;
-    /* width: 435%; */
-    width: 160%;
-  }
-  #award {
-    width: 160%;
-    margin: auto auto;
-  }
-  #bottom {
-    width: 160%;
-    margin: auto;
-  }
-  .media-center {
-    margin: auto auto;
-    /* max-width: 100vw; */
-    width: 160%;
-    /* width: 435%; */
-    line-height: 30px;
-  }
 }
