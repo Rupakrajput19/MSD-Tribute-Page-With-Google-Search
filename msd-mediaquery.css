@@ -28,11 +28,12 @@
     margin: 10px 30px 0px 50px;
   }
   .msddetails {
+    width: 1500px;
     padding: 50px;
     margin: 50px 0 20px 100px;
   }
   .msddetails ul li {
-    line-height: 50px;
+    line-height: 70px;
   }
   .thala {
     width: 80%;
@@ -46,6 +47,7 @@
     margin: 20px 0 20px 510px;
   }
   .intromsd {
+    width: 1500px;
     margin: 0 50px 50px 90px;
   }
   .imgstyle {
