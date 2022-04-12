@@ -95,7 +95,7 @@
     margin: 150px 0 20px 100px;
   }
   #msdtop {
-    width: 370%;
+    width: 340%;
     margin: auto;
   }
   #main-img {
@@ -111,11 +111,11 @@
   }
   .thala {
     width: 200%;
-    margin: 0 50px 20px 330px;
+    margin: 0 0 20px 320px;
   }
   .cool {
     margin: 0 auto;
-    width: 400%;
+    width: 380%;
   }
   .img-center {
     margin: 20px 0 20px 550px;
@@ -127,16 +127,16 @@
     margin-left: 420px;
   }
   #timeline {
-    margin: auto auto;
-    width: 370%;
+    margin: auto;
+    width: 350%;
   }
   #award {
-    width: 370%;
+    width: 350%;
     margin: auto auto;
   }
   .media-center {
     margin: auto auto;
-    width: 370%;
+    width: 350%;
     line-height: 40px;
   }
   #bottom {
