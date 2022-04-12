@@ -5,10 +5,9 @@
     position: fixed;
     top: 5px;
     height: 75px;
-    width: 1350px;
+    width: 1380px;
     margin: 0 40px 0 25px;
   }
-
   .navbar ul li a {
     font-size: 16px;
     padding: 4px 6px;
@@ -18,19 +17,19 @@
     font-size: 20px;
   }
   #msdheading {
-    margin: 150px 0 20px 80px;
+    margin: 150px 0 10px 80px;
   }
   #msdtop {
-    width: 125%;
+    width: 135%;
     margin: auto;
   }
   #main-img {
     width: 1300px;
-    margin: 10px 30px 0 50px;
+    margin: 10px 30px 0px 50px;
   }
   .msddetails {
     padding: 50px;
-    margin: 50px 0 20px 60px;
+    margin: 50px 0 20px 100px;
   }
   .msddetails ul li {
     line-height: 50px;
@@ -41,18 +40,17 @@
   }
   .cool {
     margin: 0 auto;
-    width: 160%;
+    width: 140%;
   }
   .img-center {
     margin: 20px 0 20px 510px;
   }
   .intromsd {
-    margin: 20px 0 50px 70px;
+    margin: 0 50px 50px 90px;
   }
-  .imgstyle .img {
-    margin: 20px 0 20px 420px;
+  .imgstyle {
+    margin-left: 420px;
   }
-
   #timeline {
     margin: auto auto;
     width: 160%;
@@ -63,11 +61,11 @@
   }
   .media-center {
     margin: auto auto;
-    width: 160%;
+    width: 150%;
     line-height: 30px;
   }
   #bottom {
-    width: 160%;
+    width: 150%;
     margin: auto;
   }
 }
@@ -95,7 +93,7 @@
     margin: 150px 0 20px 100px;
   }
   #msdtop {
-    width: 340%;
+    width: 345%;
     margin: auto;
   }
   #main-img {
@@ -110,12 +108,12 @@
     line-height: 50px;
   }
   .thala {
-    width: 200%;
+    width: 195%;
     margin: 0 0 20px 320px;
   }
   .cool {
     margin: 0 auto;
-    width: 380%;
+    width: 370%;
   }
   .img-center {
     margin: 20px 0 20px 550px;
@@ -124,19 +122,19 @@
     margin: 20px 0 50px 70px;
   }
   .imgstyle {
-    margin-left: 420px;
+    margin-left: 430px;
   }
   #timeline {
     margin: auto;
-    width: 350%;
+    width: 360%;
   }
   #award {
-    width: 350%;
+    width: 370%;
     margin: auto auto;
   }
   .media-center {
     margin: auto auto;
-    width: 350%;
+    width: 360%;
     line-height: 40px;
   }
   #bottom {
