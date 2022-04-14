@@ -40,7 +40,7 @@
     margin: 20px 0 -30px 510px;
   }
   .intromsd {
-    font-size: 8px;
+    font-size: 9px;
     font-weight: 200px;
     margin: 0 50px 50px 90px;
   }
@@ -57,14 +57,14 @@
     line-height: 40px;
   }
   .msddetails h1 {
-    font-size: 30px;
+    font-size: 27px;
   }
   .sub-heading {
-    font-size:28px;
+    font-size:24px;
     font-weight: bold;
   }
   .sub-heading::first-letter {
-    font-size:35px;
+    font-size:32px;
   }
 
   .imgstyle {
