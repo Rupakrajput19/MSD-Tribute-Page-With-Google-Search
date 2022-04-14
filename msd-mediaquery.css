@@ -28,7 +28,7 @@
     margin: 10px 30px -20px 50px;
   }
   .msddetails {
-    font-size: 10px;
+    font-size: 8px;
     padding: 50px;
     margin: 70px 0 -30px 100px;
   }
@@ -48,12 +48,12 @@
     margin: 20px 0 -30px 510px;
   }
   .intromsd {
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 200px;
     margin: 0 50px 0 90px;
   }
   .intromsd p::first-letter {
-    font-size:large;
+    font-size:small;
   }
 
   .imgstyle {
