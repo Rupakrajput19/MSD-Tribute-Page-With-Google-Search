@@ -135,7 +135,7 @@ a:hover {
 
 .thala {
   color: darkolivegreen;
-  font-size: 1.5em;
+  font-size: 24px;
   margin: 10px auto 20px auto;
 }
 
@@ -145,26 +145,6 @@ a:hover {
   width: 1300px;
   margin: auto auto;
 }
-
-/* 
-.imghead1{
-        background-color: red;
-        position: absolute;
-        top: 27vh;
-        right:50vw;
-}
-.imghead2{
-       background-color: red;
-       position: absolute;
-       top: 42vh;
-       right:50vw;
-}
-.imghead3{
-  background-color: red;
-       position: absolute;
-       top: 157vh;
-       right: 48vw;
-} */
 
 .cool {
   color: darkmagenta;
@@ -182,7 +162,7 @@ a:hover {
   padding: 8px;
   margin: auto;
   margin-bottom: 15px;
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bolder;
 }
 
@@ -203,7 +183,7 @@ a:hover {
 }
 
 .intromsd p::first-letter {
-  font-size: xx-large;
+  font-size: 35px;
 }
 .msddetails {
   /* background-color: #96d4d4; */
@@ -214,15 +194,15 @@ a:hover {
   margin: 50px auto;
   box-sizing: border-box;
   /* font-size: none; */
-  font-size: 22px;
+  font-size: 20px;
   box-shadow: 10px 10px 25px rgb(76, 133, 156),
     -10px -10px 25px rgb(76, 133, 156);
 }
 .msddetails h1 {
   text-align: center;
   text-decoration: underline;
-  font-size: 45px;
-  /* font-family: 'Syne Mono', monospace; */
+  font-size: 40px;
+  /* font-family:  monospace; */
 }
 
 .msddetails ul li {
@@ -231,15 +211,15 @@ a:hover {
 
 .sub-heading {
   margin-left: 40px;
-  font-size: 2rem;
+  font-size:33px;
   font-weight: bold;
 }
 
 .sub-heading::first-letter {
-  font-size: 1.5em;
+  font-size:40px;
 }
 
-.tables {
+.table-heading {
   border: 3px solid black;
   font-size: 32px;
   font-weight: bolder;
@@ -266,7 +246,7 @@ td {
   background-color: #b4e7e7;
   font-size: 18px;
   height: 50px;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .flextable {
