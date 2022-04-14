@@ -17,7 +17,7 @@
     font-size: 20px;
   }
   #msdheading {
-    margin: 150px 0 10px 80px;
+    margin: 150px 0 5px 80px;
   }
   #msdtop {
     width: 135%;
@@ -25,29 +25,33 @@
   }
   #main-img {
     width: 1300px;
-    margin: 10px 30px 0px 50px;
+    margin: 10px 30px -10px 50px;
   }
   .msddetails {
-    width: 1500px;
+    /* width: 1200px; */
+    font-size: 18px;
     padding: 50px;
     margin: 50px 0 20px 100px;
   }
   .msddetails ul li {
-    line-height: 70px;
+    line-height: 50px;
   }
+
   .thala {
     width: 80%;
     margin: 0 50px 20px 330px;
   }
   .cool {
     margin: 0 auto;
-    width: 140%;
+    width: 150%;
   }
   .img-center {
-    margin: 20px 0 20px 510px;
+    margin: 20px 0 0 510px;
   }
   .intromsd {
-    width: 1500px;
+    /* width: 1200px; */
+    font-size: 20px;
+    font-weight: 600px;
     margin: 0 50px 50px 90px;
   }
   .imgstyle {
@@ -55,10 +59,10 @@
   }
   #timeline {
     margin: auto auto;
-    width: 160%;
+    width: 150%;
   }
   #award {
-    width: 160%;
+    width: 150%;
     margin: auto auto;
   }
   .media-center {
@@ -71,7 +75,6 @@
     margin: auto;
   }
 }
-
 
 @media screen and (max-width: 600px) {
   .navbar {
