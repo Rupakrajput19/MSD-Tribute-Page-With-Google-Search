@@ -28,9 +28,9 @@
     margin: 10px 30px -20px 50px;
   }
   .msddetails {
-    font-size: 14px;
+    font-size: 10px;
     padding: 50px;
-    margin: 60px 0 0 100px;
+    margin: 70px 0 -30px 100px;
   }
   .msddetails ul li {
     line-height: 50px;
@@ -45,19 +45,19 @@
     width: 150%;
   }
   .img-center {
-    margin: 20px 0 -20px 510px;
+    margin: 20px 0 -30px 510px;
   }
   .intromsd {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 200px;
-    margin: 0 50px 50px 90px;
+    margin: 0 50px 0 90px;
   }
   .intromsd p::first-letter {
-    font-size:x-large;
+    font-size:large;
   }
 
   .imgstyle {
-    margin-left: 420px;
+    margin: 30px 0 15px 430px;
   }
   #timeline {
     margin: auto auto;
