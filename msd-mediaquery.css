@@ -17,7 +17,7 @@
     font-size: 20px;
   }
   #msdheading {
-    margin: 150px 0 20px 80px;
+    margin: 150px 0 0 80px;
   }
   #msdtop {
     width: 135%;
@@ -25,7 +25,7 @@
   }
   #main-img {
     width: 1300px;
-    margin: 10px 20px 0 40px;
+    margin: 10px 20px -20px 40px;
   }
 
   .thala {
@@ -34,7 +34,6 @@
   }
   .cool {
     margin: auto;
-    margin-top: -20px;
     width: 150%;
   }
   .img-center {
@@ -49,13 +48,23 @@
     font-size: small;
   }
   .msddetails {
-    font-size: 7px;
+    font-size: 8px;
     padding: 50px;
-    margin: 50px 0 20px 100px;
+    margin: 50px 0 0 100px;
   }
 
   .msddetails ul li {
-    line-height: 45px;
+    line-height: 40px;
+  }
+  .msddetails h1 {
+    font-size: 30px;
+  }
+  .sub-heading {
+    font-size:28px;
+    font-weight: bold;
+  }
+  .sub-heading::first-letter {
+    font-size:35px;
   }
 
   .imgstyle {
@@ -72,7 +81,7 @@
   .media-center {
     margin: auto auto;
     width: 145%;
-    /* line-height: 30px; */
+    line-height: 30px;
   }
   #bottom {
     width: 145%;
