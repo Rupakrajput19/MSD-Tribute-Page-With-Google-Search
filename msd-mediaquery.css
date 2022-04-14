@@ -5,7 +5,7 @@
     position: fixed;
     top: 5px;
     height: 75px;
-    width: 1380px;
+    width: 1360px;
     margin: 0 40px 0 25px;
   }
   .navbar ul li a {
@@ -25,13 +25,12 @@
   }
   #main-img {
     width: 1300px;
-    margin: 10px 30px -10px 50px;
+    margin: 10px 30px -20px 50px;
   }
   .msddetails {
-    /* width: 1200px; */
-    font-size: 18px;
+    font-size: 14px;
     padding: 50px;
-    margin: 50px 0 20px 100px;
+    margin: 60px 0 0 100px;
   }
   .msddetails ul li {
     line-height: 50px;
@@ -46,14 +45,17 @@
     width: 150%;
   }
   .img-center {
-    margin: 20px 0 0 510px;
+    margin: 20px 0 -20px 510px;
   }
   .intromsd {
-    /* width: 1200px; */
-    font-size: 20px;
-    font-weight: 600px;
+    font-size: 16px;
+    font-weight: 200px;
     margin: 0 50px 50px 90px;
   }
+  .intromsd p::first-letter {
+    font-size:x-large;
+  }
+
   .imgstyle {
     margin-left: 420px;
   }
@@ -71,7 +73,7 @@
     line-height: 30px;
   }
   #bottom {
-    width: 150%;
+    width: 145%;
     margin: auto;
   }
 }
