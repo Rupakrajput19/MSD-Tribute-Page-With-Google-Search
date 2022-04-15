@@ -25,21 +25,23 @@
   }
   #main-img {
     width: 1300px;
-    margin: 10px 20px -20px 40px;
+    margin: 10px 20px 0 40px;
   }
 
   .thala {
     width: 80%;
-    margin: 0 0 20px 330px;
+    margin: -10px 0 20px 330px;
   }
   .cool {
     margin: auto;
+    margin-top: -25px;
     width: 150%;
   }
   .img-center {
     margin: 20px 0 -30px 510px;
   }
   .intromsd {
+    padding: 20px 30px;
     font-size: 9px;
     font-weight: 200px;
     margin: 0 50px 50px 90px;
@@ -48,40 +50,41 @@
     font-size: small;
   }
   .msddetails {
-    font-size: 8px;
+    font-size: 7px;
     padding: 50px;
     margin: 50px 0 0 100px;
   }
 
   .msddetails ul li {
-    line-height: 40px;
+    line-height: 30px;
   }
   .msddetails h1 {
-    font-size: 27px;
+    font-size: 22px;
   }
   .sub-heading {
-    font-size:24px;
+    font-size: 18px;
     font-weight: bold;
   }
   .sub-heading::first-letter {
-    font-size:32px;
+    font-size: 28px;
   }
 
   .imgstyle {
-    margin-left:450px;
+    margin-left: 450px;
   }
   #timeline {
-    margin: auto auto;
+    margin: auto;
+    margin-top: -20px;
     width: 150%;
   }
   #award {
     width: 150%;
-    margin: auto auto;
+    margin: auto;
   }
   .media-center {
-    margin: auto auto;
+    margin: auto;
     width: 145%;
-    line-height: 30px;
+    line-height: 20px;
   }
   #bottom {
     width: 145%;
@@ -137,6 +140,7 @@
     margin: 20px 0 20px 550px;
   }
   .intromsd {
+    padding: 20px 30px;
     margin: 20px 0 50px 70px;
   }
   .imgstyle {
