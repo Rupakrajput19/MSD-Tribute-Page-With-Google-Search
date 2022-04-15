@@ -25,25 +25,23 @@
   }
   #main-img {
     width: 1300px;
-    margin: 10px 20px 0 40px;
+    margin: 10px 20px -30px 40px;
   }
 
   .thala {
     width: 80%;
-    margin: -10px 0 20px 330px;
+    margin: 0 0 20px 330px;
   }
   .cool {
     margin: auto;
-    margin-top: -25px;
     width: 150%;
   }
   .img-center {
     margin: 20px 0 -30px 510px;
   }
   .intromsd {
-    padding: 20px 30px;
+    padding: 30px 30px;
     font-size: 9px;
-    font-weight: 200px;
     margin: 0 50px 50px 90px;
   }
   .intromsd p::first-letter {
@@ -59,18 +57,18 @@
     line-height: 30px;
   }
   .msddetails h1 {
-    font-size: 22px;
+    font-size:18px;
   }
   .sub-heading {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
   }
   .sub-heading::first-letter {
-    font-size: 28px;
+    font-size: 20px;
   }
 
   .imgstyle {
-    margin-left: 450px;
+    margin-left: 460px;
   }
   #timeline {
     margin: auto;
@@ -84,11 +82,12 @@
   .media-center {
     margin: auto;
     width: 145%;
-    line-height: 20px;
+    line-height: 30px;
   }
   #bottom {
     width: 145%;
     margin: auto;
+    margin-top: -20px;
   }
 }
 
