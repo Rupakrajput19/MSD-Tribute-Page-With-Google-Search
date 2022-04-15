@@ -58,10 +58,11 @@ a {
   background-color: none;
   text-decoration: none;
   color: rgb(60, 60, 253);
+  padding: 0 5px;
 }
 
 a:hover {
-  background-color: skyblue;
+  background-color:aqua;
   text-decoration: underline;
   color: black;
 }
@@ -273,8 +274,46 @@ td {
   font-size: large;
   line-height: 50px;
 }
+.social-media{
+  position: absolute;
+  right: 30px;
+}
+.social-media a{
+  font-size: 30px;
+}
+.social-media a:hover{
+  text-decoration: none;
+  background:none;
+}
+.fa {
+  padding: 5px 2px;
+  /* width: 15px; */
+  margin: 15px 10px 5px 10px;
+}
+.fa:hover{
+  opacity: 0.8;
+}
+.fa-instagram{
+  color: rgb(244, 54, 86);
+}
+.fa-github{
+  color: black;
+}
+.fa-twitter{
+  color: #1794f4;
+}
+.fa-linkedin{
+  color:#007bb5;
+}
+.fa-facebook{
+  color: #214fb1;
+}
+.fa-youtube{
+  color: rgb(236, 24, 24);
+}
 #bottom {
   border-top: 1px solid black;
+  border-radius: 20px;
   padding: 10px;
   background-color: rgb(223, 188, 142);
 }
