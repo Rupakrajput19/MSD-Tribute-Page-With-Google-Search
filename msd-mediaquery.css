@@ -5,7 +5,7 @@
     position: fixed;
     top: 5px;
     height: 75px;
-    width: 1375px;
+    width: 1370px;
     margin: 0 40px 0 25px;
   }
   .navbar ul li a {
@@ -25,7 +25,7 @@
   }
   #main-img {
     width: 1300px;
-    margin: 10px 20px -30px 40px;
+    margin: 10px 20px 0 40px;
   }
 
   .thala {
@@ -37,7 +37,7 @@
     width: 150%;
   }
   .img-center {
-    margin: 20px 0 -30px 510px;
+    margin: 20px 0 0 510px;
   }
   .intromsd {
     padding: 30px 30px;
@@ -57,14 +57,14 @@
     line-height: 30px;
   }
   .msddetails h1 {
-    font-size:18px;
+    font-size:16px;
   }
   .sub-heading {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
   }
   .sub-heading::first-letter {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .imgstyle {
@@ -72,7 +72,6 @@
   }
   #timeline {
     margin: auto;
-    margin-top: -20px;
     width: 150%;
   }
   #award {
@@ -87,7 +86,6 @@
   #bottom {
     width: 145%;
     margin: auto;
-    margin-top: -20px;
   }
 }
 
