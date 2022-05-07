@@ -314,5 +314,6 @@ td {
   border-top: 1px solid black;
   border-radius: 20px;
   padding: 10px;
-  background-color: rgb(223, 188, 142);
+/*   background-color: rgb(223, 188, 142); */
+  background: linear-gradient(to right, orange, white, green);
 }
