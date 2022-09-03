@@ -406,7 +406,7 @@ footer {
 /* CSS Media Query File is Start Here */
 
 
-@media screen and (max-width: 601px) and (max-width: 1000px) {
+@media all and (max-width: 600px) and (max-width: 1000px) {
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -493,7 +493,7 @@ footer {
   }
    
 
-  @media screen and (max-width: 599px) {
+  @media all and (max-width: 599px) {
     .navbar {
       height: 140px;
       position: static;
